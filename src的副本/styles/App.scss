@@ -1,0 +1,95 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+/* 主容器 */
+.contain{
+    height: 600px;
+    width: 1200px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border: 1px solid#f2f2f2;
+    border-radius: 10px;
+    /* 头部绿框 */
+    .containHeader{
+    height: 40px;
+    width: 100%;
+    background-color: #e8ffe7;
+    border-radius: 10px;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+    // 纸飞机图片
+    img{
+        height: 18px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 25px;
+        }
+    //绿框文字 
+    .headerSpan1{
+        font-size: 12px;
+        color:#75c677;
+        float: left;
+        margin-top: 10px;
+        margin-left: 15px;
+        }
+    //绿框文字 
+    .headerSpan2{
+        font-size: 12px;
+        color:#75b9e5;
+        float: right;
+        margin-right: 55px;
+        margin-top: 10px;
+        }
+    //绿框文字 
+    .headerSpan3{
+        font-size: 12px;
+        color:#75c677;
+        float: right;
+        margin-right: 20px;
+        margin-top: 10px;
+        }
+    }
+    /* 导航条 */
+    .containNav{
+    height: 50px;
+    width: 100%;
+    ul{
+        list-style:none;
+        height: 30px;
+        width: 100%;
+        border-bottom: 1px solid #f2f2f2;
+        padding-top: 20px;
+        li{
+            float:left;
+            width: 100px;
+            text-align: center;
+            line-height: 30px;
+            font-size: 12px;
+            cursor: pointer;
+            &:nth-child(1){
+                width: 80px;
+                }
+            }
+        .active{
+                border:1px solid #f2f2f2;
+                border-top-right-radius: 5px;
+                border-top-left-radius: 5px;
+                border-bottom: none;
+            }
+        }
+    }
+    .containContent{
+        height: 510px;
+        width: 100%;
+        position: relative;
+               
+    }
+}
+
+
+
